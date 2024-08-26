@@ -1,0 +1,20 @@
+.p1 {
+    background-color: #85B926;
+    color: rgb(0, 0, 0);
+}
+
+.p2 {
+    background-color: #ff45ee;
+    color: rgb(255, 0, 0);
+}
+
+.p3 {
+    background-color: #ff5500;
+    color: rgb(0, 255, 0);
+}
+
+body {
+    text-align: center;
+    font-size: small;
+    font-style: italic;
+}

@@ -1,0 +1,6 @@
+{
+  "python.REPL.enableREPLSmartSend": false,
+  "files.autoSave": "afterDelay",
+  "editor.fontSize": 15,
+  "liveServer.settings.port": 5501
+}

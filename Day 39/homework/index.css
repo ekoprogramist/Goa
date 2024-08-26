@@ -1,0 +1,71 @@
+.div1 p {
+    text-align: center;
+    background-color: rgb(255, 12, 34);
+    color: #ffee34;
+}
+
+.div2 p {
+    text-align: center;
+    background-color: rgb(0, 255, 0);
+    color: rgb(24, 255, 0);
+}
+
+.div3 p {
+    text-align: right;
+    background-color: green;
+    color: #eeefff;
+}
+
+.div4 p {
+    text-align: left;
+    background-color: #ff4ee1;
+    color: #000eee;
+}
+
+.div5 p {
+    text-align: right;
+    background-color: rgb(255, 12, 34);
+    color: #000000;
+}
+
+
+.class1{
+    text-decoration: overline wavy red;
+    text-align: right;
+}
+.class2{
+    text-decoration: overline dashed black;
+    text-align: center;
+}
+.class3{
+    text-decoration: overline dotted blue;
+    text-align: left;
+}
+.class4{
+    text-decoration: overline solclass aqua;
+    text-align: center;
+}
+.class5{
+    text-decoration: overline double green;
+    text-align: right;
+}
+.class6{
+    text-decoration: underline wavy greenyellow;
+    text-align: left;
+}
+.class7{
+    text-decoration: underline dashed firebrick;
+    text-align: left;
+}
+.class8{
+    text-decoration: underline dotted teal;
+    text-align: right;
+}
+.class9{
+    text-decoration: underline solclass gold;
+    text-align: center;
+}
+.class10{
+    text-decoration: underline double peru;
+    text-align: right;
+}

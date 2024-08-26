@@ -1,0 +1,31 @@
+.parent {
+    width: 500px;
+    height: 500px;
+    border: 3px solid black !important;
+}
+
+.child {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #E8F0FE;
+}
+
+.parent1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border: 3px solid black;
+    width: 500px;
+    height: 500px;
+}
+
+.photos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100px;
+    height: 200px;
+    border-radius: 100%;
+}

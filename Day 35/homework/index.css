@@ -1,0 +1,12 @@
+body {
+    font-size: larger;
+    font-weight: 600;
+
+}
+.my-div p b {
+    color: red;
+}
+
+table {
+    text-align: center;
+}

@@ -1,0 +1,87 @@
+.myphoto img {
+    width: 10%;
+    border-radius: 100%;
+    display: flex;
+    position: fixed;
+    right: 340px;
+    top: 120px;
+}
+
+.myphoto img:hover {
+    width: 230px;
+    cursor: pointer;
+}
+
+.myphoto p {
+    display: flex;
+    position: fixed;
+    right: 330px;
+    top: 65px;
+}
+
+.logos img {
+    width: 25px;
+    border-radius: 100%;
+    display: flex;
+    position: fixed;
+}
+
+.logos img:hover {
+    background-color: rgba(86, 86, 86, 0.3);
+    border-radius: 8px;
+    width: 34px;
+    
+}
+
+.logos2 img {
+    width: 25px;
+    border-radius: 100%;
+    display: flex;
+    position: fixed;
+    right: 25px;
+}
+
+.logos2 img:hover {
+    background-color: rgba(86, 86, 86, 0.3);
+    border-radius: 8px;
+    width: 34px;
+    
+}
+
+body {
+    background: linear-gradient(skyblue, #FE3E28, yellow);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.text1 p {
+    display: flex;
+    position: fixed;
+    right: 100px;
+    top: 340px;
+}
+
+h1 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.mysister img {
+    width: 140px;
+    border-radius: 100%;
+    display: flex;
+    position:relative;
+    top: 55px;
+   
+
+
+}
+
+.mysister label {
+    display: flex;
+    top: 450px;
+}
+
+.mysister img:hover {
+    width: 160px;
+}
