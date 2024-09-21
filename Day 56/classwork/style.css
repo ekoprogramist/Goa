@@ -1,0 +1,23 @@
+button {
+    background-color: lime;
+    color: white;
+    height: 34px;
+    width: 150px;
+    border: none;
+    box-shadow: 6px 5px 12px;
+
+}
+
+
+button:active {
+
+}
+
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}

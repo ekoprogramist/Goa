@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.parent
+{
+    width: 200px;
+    height: 200px;
+    background-color: green ;
+    transition: 0.5s;
+}
+
+.parent:hover
+{
+    background-color: red ;
+    transform: scale(1.2) rotate(30deg) translate(45px);
+}

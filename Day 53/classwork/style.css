@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif cursive;
+}
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div
+{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: 0.3s;
+}
+
+div:active
+{
+    transform: rotate(200deg), translateX(200px), scale(2);
+}
