@@ -3,7 +3,8 @@
   "files.autoSave": "afterDelay",
   "editor.fontSize": 15,
   "liveServer.settings.port": 5501,
-  "editor.cursorBlinking": "smooth",
+  "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": "on",
-  "editor.cursorSurroundingLinesStyle": "all"
+  "editor.cursorSurroundingLinesStyle": "all",
+  "editor.cursorStyle": "line-thin"
 }
