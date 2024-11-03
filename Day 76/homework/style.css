@@ -1,0 +1,66 @@
+/* CSS */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 1em;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #ff9800;
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+    }
+}
+
+
+/* animation squrel */
+
+
+.cube {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: moveAround 5s linear infinite;
+}
+
+@keyframes moveAround {
+    0% { top: 0; left: 0; }
+    25% { top: 0; left: calc(100% - 50px); }
+    50% { top: calc(100% - 50px); left: calc(100% - 50px); }
+    75% { top: calc(100% - 50px); left: 0; }
+    100% { top: 0; left: 0; }
+}
+
+/* button animation */
+.animated-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s, letter-spacing 0.2s, background-color 0.3s;
+}
+
+.animated-btn:hover {
+    transform: scale(1.1) translateY(-5px);
+}
+
+.animated-btn:active {
+    background-color: #555;
+    letter-spacing: 2px;
+}
