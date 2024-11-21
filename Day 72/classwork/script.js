@@ -1,11 +1,10 @@
-const usertime = document.getElementById('my_p')
+const time = document.querySelector(".time");
+let count = 21;
 
-const time = setInterval(function() {
-    usertime--;
-
-    console.log(usertime, 'left');
-
-    clearInterval(time);
-
-    console.log('Time is up')
-}, 1000);
+const t = setInterval(function(){
+    count--;
+    time.textContent = count;
+    if(count === 0){
+        clearInterval(t)
+    }
+}, 1000)

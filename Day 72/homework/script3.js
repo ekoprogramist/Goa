@@ -1,22 +1,15 @@
-let timer;
-let seconds = 0;
+const texts = [
+    'ეს არის პირველი ტექსტი.',
+    'მეორე ტექსტი,.',
+    'ეს მესამე ტექსტია.',
+    'ეს არის მეოთხე ტექსტი.',
+    'და ეს არის მეხუთე ტექსტი.'
+];
+let index = 0;
 
-document.getElementById('start').addEventListener('click', function() {
-    clearInterval(timer);
-    timer = setInterval(function() {
-        seconds++;
-        const mins = Math.floor(seconds / 60);
-        const secs = seconds % 60;
-        document.getElementById('timer').textContent = mins + ':' + secs;
-    }, 1000);
-});
+function changeText() {
+    document.getElementById('text').textContent = texts[index];
+    index = (index + 1) % texts.length;
+}
 
-document.getElementById('pause').addEventListener('click', function() {
-    clearInterval(timer);
-});
-
-document.getElementById('reset').addEventListener('click', function() {
-    clearInterval(timer);
-    seconds = 0;
-    document.getElementById('timer').textContent = '0:0';
-});
+setInterval(changeText, 5000);
